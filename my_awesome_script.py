@@ -1,10 +1,8 @@
 def my_awesome_function(x, y):
-    z = x+y
-    return z
+    return x+y
 
 def my_even_more_awesome_function(x ,y):
-    z = x**y
-    return z
+    return x**y
 
 def main():
     x, y = 2, 2
