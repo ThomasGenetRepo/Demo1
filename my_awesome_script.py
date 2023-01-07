@@ -1,16 +1,17 @@
 # This funcion is truely awesome!!! 
-def my_awesome_function(x, y):
-    return x+y
+my_awesome_function = lambda x, y: x + y
 
 # But this function is the awesomest funciton ever!!! 
-def my_even_more_awesome_function(x ,y):
-    return x**y
+my_even_more_awesome_function = lambda x, y: x ** y
 
 # Let's do some awesome things!!!
 def main():
     x, y = 2, 2
     z1 = my_awesome_function(x, y)
     z2 = my_even_more_awesome_function(x, y)
+
+    print(f"Passing {x} & {y} to my awesome function gives: {z1}")
+    print(f"Passing {x} & {y} to my eevn more awesome function gives: {z2}")
 
 # lol if main then call main
 if __name__ == '__main__':
